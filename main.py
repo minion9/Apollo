@@ -5,7 +5,7 @@ from middleware.middleware import Middleware
 from routes.users import user_routes
 from routes.auth import auth_routes
 from routes.health import health_routes
-import osasa
+import os
 import logging
 
 # Initialize cache
